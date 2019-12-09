@@ -17,6 +17,8 @@ import { AngularFireAuthModule } from 'angularfire2/auth';
 import { environment } from '../environments/environment';
 import { NgDropFilesDirective } from './directives/ng-drop-files.directive';
 import { PerfilComponent } from './components/perfil/perfil.component';
+import { InstruccionesComponent } from './components/instrucciones/instrucciones.component';
+import { ObjetivoComponent } from './components/objetivo/objetivo.component';
 
 
 @NgModule({
@@ -25,7 +27,9 @@ import { PerfilComponent } from './components/perfil/perfil.component';
     FotosComponent,
     CargaComponent,
     NgDropFilesDirective,
-    PerfilComponent
+    PerfilComponent,
+    InstruccionesComponent,
+    ObjetivoComponent
   ],
   imports: [
     BrowserModule,
